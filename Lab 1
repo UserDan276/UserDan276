@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+   //Завдання begin17
+   float x, y; //декларація 
+   cout << "x = "; //введення 
+   cin >> x;
+   y = 3 * x * x * x * x * x * x - 6 * x * x - 7; //обчислення  
+   cout << "y = " << y << endl; //виведення 
+   return 0;
+}
